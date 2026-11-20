@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment
+venv/
+env/
+
+# Model weights (large files — download separately)
+yolov8n.pt
+
+# Pipeline outputs (generated on each run)
+test.csv
+test_interpolated.csv
+out.mp4
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Temp
+*.log
